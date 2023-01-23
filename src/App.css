@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+nav{
+  padding-top: 1rem;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  background-color: #004280;
+  position:absolute;
+  top: 0%;
+  width: 100%;
+}
+
+
+.bar{
+  display: flex;
+  justify-content: space-around;
+  grid-row: 2/3;
+  width: 100vw;
+  color: white;
+  padding: 1rem 0 1rem 0;
+}
+
+ul{
+  padding: 1rem 0 1rem 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: 1.5rem;
+}
+
+
+.topPage{
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.invertir{
+  filter: invert(1);
+}
+
+.brand{
+  font-family: 'Poppins';
+  color: white;
+}
+
+.cart{
+  height: 5vh;
+}
+
+.carrito{
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+  color: white;
+}
+
+.lista{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.btn{
+  background-color: #d6e962;
+  border-radius: 4px;
+  color: black;
+  font-family: 'Poppins';
+  line-height: 26px;
+  padding: 16px 20px;
+  text-align: center;
+  width: 15vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+} 
+
+.mantenimiento{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  height: 100vh;
+  width: 100vw;
+  color: #d6e962;
+  -webkit-text-stroke: 3px black;
+}
